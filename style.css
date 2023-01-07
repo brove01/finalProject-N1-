@@ -36,8 +36,8 @@
 
 p{
     color: #0d0d0d;
-    line-height:15px;
-    font-size: 22px;
+    line-height:25px;
+    font-size: 25px;
     font-weight: bolder;
 }
 h1{
@@ -56,7 +56,7 @@ i:hover{
 }
 .v{
     color: rgb(222, 70, 0); 
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
     margin-bottom: 30px;
 }
@@ -167,7 +167,7 @@ span{
 
 
 /*section css code Begin*/
-section {
+section .b {
     background: url("https://c4.wallpaperflare.com/wallpaper/1000/65/312/playstation-gamepad-crash-wallpaper-preview.jpg");
     background-size: 100% 100%;
     align-items: center;
@@ -176,6 +176,42 @@ section {
     height: 900px;
     
 
+}
+section .c {
+    background: url("https://wallpapercave.com/wp/wp9221239.jpg");
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height: 900px;
+    
+
+}
+section .d {
+    background: url("https://wallpaper.dog/large/9975.jpg");
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height: 900px;
+    
+
+}
+section .e {
+    background: url("https://www.wallpaperflare.com/static/807/527/717/fists-fire-ice-digital-art-wallpaper.jpg");
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height: 900px;
+    
+
+}
+.c p{
+    color: azure;
+}
+.c a{
+    text-decoration: none;
 }
 
 .grandPa{
@@ -201,10 +237,41 @@ section {
 
 .Tex{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top:150px;
     margin-right:40px;
     
+}
+.Pex{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(30, 29, 29);
+    padding: 10px 10px;
+    border-radius:20px;
+    margin-top:50px;
+    margin-right:40px;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    
+}
+
+.Pex:hover{
+    border-left: 2px solid rgb(222, 92, 0);
+    border-right: 2px solid rgb(245, 142, 7);
+    border-top: 2px solid rgb(222, 113, 3);
+    border-bottom: 2px solid rgb(245, 182, 7);
+    opacity:0.94;
+    
+}
+.xblock{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 800px;
 }
 
 /*section css code End*/
@@ -215,6 +282,8 @@ article{
     
     background:url("https://cutewallpaper.org/cdn-cgi/mirage/dd19f2d06ebc24f541f142b37b4289ffa7de722a7607e39984c5c6dd4ce8defd/1280/21/black-and-white-gaming-background/White-gaming-background-1-Background-Download.png");
     padding-top:80px;
+    padding-bottom:35px;
+    
 
 }   
 .Child{
@@ -311,6 +380,74 @@ article{
     font-weight: 500;
     color: rgb(245, 142, 7);
 
+}
+.Fbox{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top:70px;
+    margin-bottom:150px;
+    margin-left:20%;
+    margin-right:40%;
+    width: 1000px;
+    height: 700px;
+    background-color:rgb(30, 29, 29);
+    color: azure;
+    border-radius:30px;
+}
+.Fbox input{
+    color: gray;
+    border-radius:10px;
+    margin-right:30px;
+    
+}
+.Fbox h2{
+    margin-right:30px;
+    font-size:25px;
+    
+}
+.btn2 {
+    display: inline-block;
+    background-color:rgb(222, 92, 0);
+    border-radius: 10px;
+    text-align: center;
+    margin-left:5px;
+    font-size: 25px;
+    width:120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+  }
+  .btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .btn2 span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .btn2:hover {
+    background-color: rgb(245, 142, 7);
+  }
+  .btn2:hover span {
+    padding-right: 25px;
+  }
+  .btn2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.flexpar{
+    display: flex;
+    flex-direction:row;
+    margin-Top: 60px;
 }
 /*article css code End*/
 
