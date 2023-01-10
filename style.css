@@ -46,6 +46,7 @@ p{
 h1{
     color: rgb(222, 93, 0); 
     font-size: 50px;
+    margin-bottom:60px;
 }
 i{
     color: rgb(222, 93, 0); 
@@ -75,7 +76,20 @@ header{
     justify-content:center;
     z-index: 1;
 }
-
+.Nova{
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    background:rgb(242, 240, 240);
+    
+    width: 100%;
+    height:100px;
+    position: relative;
+    
+}
 nav{
     
     
@@ -106,7 +120,11 @@ header a:hover{
 span{
     color: rgb(255, 255, 255);
 }
-
+.Novabarr{
+    overflow: hidden;
+    background: rgb(239, 239, 239);
+    
+}
 .navbarr {
     overflow: hidden;
     background: rgb(30, 29, 29);
@@ -142,7 +160,14 @@ span{
 .navbarr a:hover, .dropdownn:hover .dropbtnn {
     color: rgb(245, 142, 7);
 }
-  
+.dropdownn-content2 {
+    display: none;
+    position: absolute;
+    background-color: #fafafa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.888);;
+    z-index: 1;
+}  
 .dropdownn-content {
     display: none;
     position: absolute;
@@ -287,6 +312,14 @@ section .e {
 article{
     
     background:url("https://cutewallpaper.org/cdn-cgi/mirage/dd19f2d06ebc24f541f142b37b4289ffa7de722a7607e39984c5c6dd4ce8defd/1280/21/black-and-white-gaming-background/White-gaming-background-1-Background-Download.png");
+    padding-top:80px;
+    padding-bottom:35px;
+    
+
+} 
+.DarkA{
+    
+    background:url("https://wallpaperaccess.com/full/772411.jpg");
     padding-top:80px;
     padding-bottom:35px;
     
@@ -493,6 +526,15 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: rgb(30, 29, 29);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.47);
+    align-items: center; 
+    justify-content: center;
+    height: 200px;
+}
+f.DarkF{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 252, 252);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.47);
     align-items: center; 
     justify-content: center;
